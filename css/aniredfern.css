@@ -7,7 +7,7 @@ body {
   margin-bottom: 60px;
 }
 .jumbotron {
-  background-image: url("https://www.smak.co.za/images/bg.jpg");
+  background-image: url('../img/textbox.jpg');
   background-size: 100% 100%;
   color: #b0bec5;
   margin-bottom: 0;
@@ -16,21 +16,12 @@ body {
   background-color: rgba(0,123,255,0.4);
   transition: background-color 0.5s;
 }
-@media(max-width: 768px){
-    .navbar {background-color: #007bff !important; }
-}
+
 
 /* ============================================================
   ANI REDFERN STUFF
 ============================================================ */
 
-@font-face {
-    font-family: "My Custom Font";
-    src: url(Arabella.ttf) format("truetype");
-}
-a.customfont { 
-    font-family: "My Custom Font", Verdana, Tahoma;
-}
 
 /* ============================================================
   PRIMARY STRUCTURE
@@ -59,7 +50,6 @@ section.module p:last-child {
   margin-bottom: 0;
 }
 section.module.content {
-  padding: 40px 0;
   background-color: rgba(207,216,220,0.5);
 }
 section.module.content:last-child {
@@ -78,11 +68,11 @@ section.module.parallax h1 {
   text-shadow: 0 0 10px white;
 }
 section.module.parallax-1 {
-  background-image: url("ladyinred.jpg");
+  background-image: url('../img/ladyinred.jpg');
   background-position: 50% 0;
   background-repeat: repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: 100%;
   background-color: rgba(0,123,255,0.4);
   background-blend-mode: screen;
 }
@@ -96,7 +86,7 @@ section.module.parallax-2 {
   background-blend-mode: screen;
 }
 section.module.parallax-3 {
-  background-image: url("raindrops.jpg");
+  background-image: url('raindrops.jpg');
   background-position: 50% 0;
   background-repeat: repeat;
   background-attachment: fixed;

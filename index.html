@@ -5,15 +5,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="css/test.css">
+  <link rel="stylesheet" type="text/css" href="css/aniredfern.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="js/test.js"></script>
+  <script src="js/aniredfern.js"></script>
   <style type="text/css">
     @font-face {
         font-family: "My Custom Font";
-        src: url(Arabella.ttf) format("truetype");
+        src: url('fonts/Arabella.ttf') format("truetype");
     }
     a.customfont { 
         font-family: "My Custom Font", Verdana, Tahoma;
@@ -22,6 +22,9 @@
     h1.customfont { 
         font-family: "My Custom Font", Verdana, Tahoma;
         color: black;
+    }
+    .salon img {
+        width:100%;
     }
   </style>
 </head>
@@ -41,7 +44,7 @@
                 <a class="nav-link" href="//codeply.com">Codeply</a>
             </li>
 
-            <li class="nav-item mr-auto">
+            <li class="nav-item">
                 <a class="nav-link" href="#myAlert" data-toggle="collapse">Wow</a>
             </li>
 
@@ -56,28 +59,30 @@
   </section>
 
   <section class="module content">
-    <div class="parallax-container">
-      <h2>Welcome to Ani Redfern</h2>
-      <p>Where everybody knows your name, 
-        and they're always glad you came. 
-        You wanna be where you can see, 
-        our troubles are all the same 
-        You wanna be where everybody knows 
-        Your name. 
-      </p>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-3">Welcome to Ani Redfern</h1>
+        <p class="lead">
+          Where everybody knows your name, 
+          and they're always glad you came. 
+          You wanna be where you can see, 
+          our troubles are all the same 
+          You wanna be where everybody knows 
+          Your name.
+        </p>
+      </div>
     </div>
   </section>
 
-  <section class="module parallax parallax-1" data-type="background" data-speed="10">
-    <div class="parallax-container">
-      <h1>Shape</h1>
-    </div>
-  </section>
+  <section class="module parallax parallax-1" data-type="background" data-speed="10"> </section>
 
   <section class="module content">
     <div class="parallax-container">
-      <h2>Lorem Ipsum Dolor</h2>
-      <p>Lorem ipsum dolor...</p>
+      <div class="row">
+        <div class="span3 salon">
+          <img src="img/salon.jpg" alt="">
+        </div>
+      </div>
     </div>
   </section>
 
