@@ -19,11 +19,23 @@ body {
 @media(max-width: 768px){
     .navbar {background-color: #007bff !important; }
 }
+
+/* ============================================================
+  ANI REDFERN STUFF
+============================================================ */
+
+@font-face {
+    font-family: "My Custom Font";
+    src: url(Arabella.ttf) format("truetype");
+}
+a.customfont { 
+    font-family: "My Custom Font", Verdana, Tahoma;
+}
+
 /* ============================================================
   PRIMARY STRUCTURE
 ============================================================ */
 .parallax-container {
-  max-width: 960px;
   margin: 0 auto;
 }
 
@@ -63,11 +75,10 @@ section.module.parallax h1 {
   line-height: 1;
   font-weight: 700;
   text-align: center;
-  text-transform: uppercase;
   text-shadow: 0 0 10px white;
 }
 section.module.parallax-1 {
-  background-image: url("https://i.ytimg.com/vi/SwOaV-pzGcA/maxresdefault.jpg");
+  background-image: url("ladyinred.jpg");
   background-position: 50% 0;
   background-repeat: repeat;
   background-attachment: fixed;
